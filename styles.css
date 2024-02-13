@@ -1,0 +1,51 @@
+:root {
+  --main-color: #004f8b;
+  --accent-color: #0083e1;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  max-height: 100vh;
+  max-height: 100svh;
+}
+
+header p {
+  font-size: 1.5rem;
+  color: var(--accent-color);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 3.5rem;
+}
+
+h1 span {
+  color: var(--main-color);
+}
+
+p span {
+  border-left: 2px solid var(--accent-color);
+  border-right: 2px solid var(--accent-color);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  background-color: var(--main-color);
+  color: var(--white);
+}
