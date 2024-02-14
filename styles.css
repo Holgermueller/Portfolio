@@ -16,16 +16,13 @@ header {
   text-align: center;
   min-height: 100vh;
   min-height: 100svh;
+  display: grid;
+  place-items: center;
+  align-content: center;
 }
 
 header p {
-  font-size: 1.5rem;
   color: var(--accent-color);
-}
-
-h1 {
-  font-weight: lighter;
-  font-size: 3.5rem;
 }
 
 h1 span {
@@ -59,8 +56,6 @@ h2,
 .flex-container {
   width: 90%;
   margin: 30px auto;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .flex-container > div {
