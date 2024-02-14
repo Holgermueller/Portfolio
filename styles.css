@@ -14,8 +14,8 @@ body {
 
 header {
   text-align: center;
-  max-height: 100vh;
-  max-height: 100svh;
+  min-height: 100vh;
+  min-height: 100svh;
 }
 
 header p {
@@ -43,8 +43,39 @@ p span {
   border-radius: 5px;
 }
 
+h2,
+.skill-container > p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.bio-text {
+  width: 90%;
+  margin: 30px auto;
+  line-height: 23px;
+  font-size: 15px;
+}
+
+.flex-container {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-container > div {
+  margin: 8px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 23px;
+  padding: 0;
+}
+
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
