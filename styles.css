@@ -25,6 +25,10 @@ header p {
   color: var(--accent-color);
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
 h1 span {
   color: var(--main-color);
 }
@@ -77,5 +81,9 @@ footer {
   padding: 8px;
   text-align: center;
   background-color: var(--main-color);
+  color: var(--white);
+}
+
+footer i {
   color: var(--white);
 }
