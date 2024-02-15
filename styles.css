@@ -21,16 +21,17 @@ header {
   align-content: center;
 }
 
-header p {
-  color: var(--accent-color);
-}
-
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 h1 span {
   color: var(--main-color);
+}
+
+header p {
+  font-size: 1.5rem;
+  color: var(--accent-color);
 }
 
 p span {
@@ -48,6 +49,11 @@ h2,
 .skill-container > p {
   text-align: center;
   font-size: 25px;
+}
+
+section {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .bio-text {
@@ -71,6 +77,21 @@ ul {
   text-align: center;
   line-height: 23px;
   padding: 0;
+}
+
+#experience {
+  width: 95%;
+  margin: auto;
+}
+
+.project-container {
+  width: 95%;
+  margin: 5% auto;
+  border-radius: 5px;
+}
+
+.project-container img {
+  width: 100%;
 }
 
 footer {
