@@ -66,9 +66,10 @@ section {
 .flex-container {
   width: 90%;
   margin: 30px auto;
+  justify-content: center;
 }
 
-.flex-container > div {
+.flex-container div {
   margin: 8px;
 }
 
@@ -96,6 +97,11 @@ ul {
 
 .project-container img {
   width: 100%;
+  border-radius: 5px;
+}
+
+col img {
+  border-radius: 5px;
 }
 
 footer {
