@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 
 h1 span {
@@ -72,9 +72,13 @@ section {
   margin: 8px;
 }
 
+.skill-container {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
-  text-align: center;
+
   line-height: 23px;
   padding: 0;
 }
