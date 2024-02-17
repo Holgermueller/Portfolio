@@ -19,6 +19,7 @@ header {
   display: grid;
   place-items: center;
   align-content: center;
+  margin-bottom: 8px;
 }
 
 h1 {
@@ -45,15 +46,40 @@ p span {
   border-radius: 5px;
 }
 
+.header-socials a {
+  color: var(--main-color);
+}
+
+.header-socials a:hover {
+  color: var(--accent-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 h2,
 .skill-container > p {
   text-align: center;
   font-size: 25px;
 }
 
-section {
-  margin-top: 5%;
-  margin-bottom: 5%;
+#skills,
+#experience,
+#portfolio {
+  width: 90%;
+  margin: 2% auto;
+}
+
+#bio {
+  background-color: var(--accent-color);
+  color: var(--white);
+  box-sizing: border-box;
+}
+
+#bio h2 {
+  padding: 2%;
 }
 
 .bio-text {
@@ -64,8 +90,6 @@ section {
 }
 
 .flex-container {
-  width: 90%;
-  margin: 30px auto;
   justify-content: center;
 }
 
@@ -77,20 +101,17 @@ section {
   text-align: center;
 }
 
+.skill-container i {
+  margin: 18px;
+}
+
 ul {
   list-style-type: none;
-
   line-height: 23px;
   padding: 0;
 }
 
-#experience {
-  width: 95%;
-  margin: auto;
-}
-
 .project-container {
-  width: 95%;
   margin: 5% auto;
   border-radius: 5px;
 }
@@ -105,6 +126,7 @@ col img {
 }
 
 footer {
+  margin-top: 8px;
   position: relative;
   bottom: 0;
   left: 0;
@@ -117,4 +139,8 @@ footer {
 
 footer i {
   color: var(--white);
+}
+
+footer i:hover {
+  color: var(--accent-color);
 }
