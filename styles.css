@@ -69,7 +69,6 @@ h2,
 }
 
 #skills,
-#experience,
 #portfolio {
   width: 90%;
   margin: 2% auto;
@@ -86,7 +85,7 @@ h2,
 }
 
 .bio-text {
-  width: 90%;
+  width: 80%;
   margin: 30px auto;
   line-height: 23px;
   font-size: 15px;
@@ -114,9 +113,23 @@ ul {
   padding: 0;
 }
 
+#experience {
+  background-color: var(--accent-color);
+  transform: skewY(5deg);
+  padding: 4%;
+  margin: 4% 0;
+}
+
+#experience h2 {
+  transform: skewY(-5deg);
+  color: var(--white);
+}
+
 .project-container {
+  width: 90%;
   margin: 5% auto;
   border-radius: 5px;
+  transform: skewY(-5deg);
 }
 
 .project-container img {
