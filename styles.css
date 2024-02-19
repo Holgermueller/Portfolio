@@ -121,7 +121,11 @@ ul {
   border-radius: 5px;
 }
 
-col img {
+.row > .col {
+  max-width: calc(100% / 3);
+}
+
+.col > img {
   border-radius: 5px;
 }
 
