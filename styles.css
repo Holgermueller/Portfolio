@@ -92,8 +92,8 @@ h2,
 .bio-text {
   width: 80%;
   margin: 30px auto;
-  line-height: 23px;
-  font-size: 15px;
+  line-height: 28px;
+  font-size: 1.25rem;
 }
 
 .flex-container {
@@ -146,17 +146,13 @@ ul {
   max-width: calc(100% / 3);
 }
 
-.col > img {
-  border-radius: 5px;
-}
-
 footer {
   margin-top: 8px;
   position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 8px;
+  padding: 16px 8px;
   text-align: center;
   background-color: var(--main-color);
   color: var(--white);
