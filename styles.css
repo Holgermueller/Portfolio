@@ -73,27 +73,10 @@ h2,
   font-size: 25px;
 }
 
-#skills,
-#portfolio {
-  width: 90%;
-  margin: 2% auto;
-}
-
-#bio {
+#experience {
   background-color: var(--accent-color);
   color: var(--white);
-  box-sizing: border-box;
-}
-
-#bio h2 {
-  padding: 2%;
-}
-
-.bio-text {
-  width: 80%;
-  margin: 30px auto;
-  line-height: 28px;
-  font-size: 1.25rem;
+  padding: 2rem;
 }
 
 .flex-container {
@@ -104,12 +87,20 @@ h2,
   margin: 8px;
 }
 
-.skill-container {
-  text-align: center;
+#portfolio {
+  padding: 2rem 0;
 }
 
-.skill-container i {
-  margin: 18px;
+#skills {
+  background-color: var(--accent-color);
+  transform: skewY(5deg);
+  padding: 4%;
+  margin: 4% 0;
+}
+
+#skills h2 {
+  transform: skewY(-5deg);
+  color: var(--white);
 }
 
 ul {
@@ -118,23 +109,20 @@ ul {
   padding: 0;
 }
 
-#experience {
-  background-color: var(--accent-color);
-  transform: skewY(5deg);
-  padding: 4%;
-  margin: 4% 0;
+.skill-container {
+  transform: skewY(-5deg);
+  text-align: center;
+  color: var(--white);
 }
 
-#experience h2 {
-  transform: skewY(-5deg);
-  color: var(--white);
+.skill-container i {
+  margin: 18px;
 }
 
 .project-container {
   width: 90%;
   margin: 5% auto;
   border-radius: 5px;
-  transform: skewY(-5deg);
 }
 
 .project-container img {
@@ -146,8 +134,22 @@ ul {
   max-width: calc(100% / 3);
 }
 
+#bio {
+  padding-top: 1rem;
+}
+
+#bio h2 {
+  padding: 2rem;
+}
+
+.bio-text {
+  width: 80%;
+  margin: 30px auto;
+  line-height: 28px;
+  font-size: 1.25rem;
+}
+
 footer {
-  margin-top: 8px;
   position: relative;
   bottom: 0;
   left: 0;
