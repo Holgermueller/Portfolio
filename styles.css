@@ -87,6 +87,61 @@ h2,
   margin: 8px;
 }
 
+.project-container {
+  position: relative;
+  width: 90%;
+  margin: 5% auto;
+  border-radius: 5px;
+}
+
+.project-container img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 79, 139, 0.9);
+  color: var(--white);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  line-height: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.project-container a {
+  text-transform: uppercase;
+  border-radius: 36px;
+  border: 1px solid var(--white);
+  color: var(--white);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  width: max-content;
+  margin: auto;
+}
+
+.project-container a:hover {
+  color: var(--main-color);
+  background-color: var(--white);
+}
+
+.project-container:hover #overlay {
+  opacity: 1;
+}
+
 #portfolio {
   padding: 2rem 0;
 }
@@ -117,17 +172,6 @@ ul {
 
 .skill-container i {
   margin: 18px;
-}
-
-.project-container {
-  width: 90%;
-  margin: 5% auto;
-  border-radius: 5px;
-}
-
-.project-container img {
-  width: 100%;
-  border-radius: 5px;
 }
 
 .row > .col {
