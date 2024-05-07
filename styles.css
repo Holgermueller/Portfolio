@@ -212,6 +212,14 @@ footer i:hover {
   color: var(--accent-color);
 }
 
+.copy a {
+  color: var(--white);
+}
+
+.copy a:hover {
+  color: var(--accent-color);
+}
+
 @media screen and (max-width: 600px) {
   .flex-container {
     flex-direction: column;
