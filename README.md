@@ -1,6 +1,6 @@
 # Portfolio
 
-A little bit about me and the projects of which I'm most proud.
+A little bit about me and the projects of which I'm most proud. It contains some professional projects.
 
 ## Process
 
